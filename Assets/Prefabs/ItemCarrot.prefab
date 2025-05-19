@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3562228890713689890}
   - component: {fileID: 7797816223866235497}
   - component: {fileID: 3662293130079529941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ItemCarrot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5558844ad6e0ec1478765abc1d156c12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: ec4107edb8b4bdb45a7125955c3d73f5, type: 2}
 --- !u!1 &7933714512601700504
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +107,7 @@ GameObject:
   - component: {fileID: 2460301515379611747}
   - component: {fileID: 6309968132568201319}
   - component: {fileID: 4186594867205906297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Carrot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

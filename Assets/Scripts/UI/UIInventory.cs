@@ -162,7 +162,6 @@ public class UIInventory : MonoBehaviour
     public void SelectItem(int index)
     {
         if (slots[index].item == null) return;
-
         selectedItem = slots[index];
         selectedItemIndex = index;
 
