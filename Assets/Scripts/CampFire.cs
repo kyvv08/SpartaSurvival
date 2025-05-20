@@ -7,6 +7,7 @@ public class CampFire : MonoBehaviour
     public int damage;
     public float damageRate;
 
+    [SerializeField]
     private List<IDamagable> things = new List<IDamagable>();
 
     private void Start()
@@ -18,6 +19,11 @@ public class CampFire : MonoBehaviour
     {
         for(int i = 0; i<things.Count; i++)
         {
+            if ((UnityEngine.Object)things[i] == null)
+            {
+                things.RemoveAt(i);
+                return;
+            }
             things[i].TakePhysicalDamage(damage);
         }
     }
